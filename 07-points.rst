@@ -72,7 +72,7 @@ pixels). As shown on the figure, the result is quite ugly.
 Antialiased points
 ++++++++++++++++++
 
-For drawing antialiased point, the size of the quad must be slighlty larger
+When drawing an antialiased point, the size of the quad must be slightly larger
 than the actual diameter of the point because we need some extra space for the
 antialias area. Considering a point with a radius `r`, the size of the quad is
 thus `2+ceil(2*r)` if we consider using 1 pixel for the antalias area. Finally,
@@ -161,7 +161,7 @@ Last, we setup our python program to display some discs:
 
    Figure
 
-   Discs positionned vertically with a 0.2 pixel increase.
+   Discs positioned vertically with a 0.2 pixel increase.
    See `discs-aligned.py <code/chapter-07/discs-aligned.py>`_
 
 .. figure:: images/chapter-07/dots-2.png
@@ -170,7 +170,7 @@ Last, we setup our python program to display some discs:
 
    Figure
 
-   Circles positionned vertically with a 0.2 pixel increase.
+   Circles positioned vertically with a 0.2 pixel increase.
    See `circles-aligned.py <code/chapter-07/circles-aligned.py>`_
    
 You can see the result on the image on the right. Not only the discs are
