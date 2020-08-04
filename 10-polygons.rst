@@ -23,11 +23,11 @@ consider whether the polygon is convex or concave:
 .. image:: images/chapter-10/polygons.png
    :width: 100%
 
-To know if a given polygon is concave or convex, it is rather easy. Convex
-polygons have all their diagonals contained inside, while it is not true for
-concave polygons, i.e. you can find two summits such that when you connect
-them, the segment is outside the polygon. Another test is to find a straight
-line that cross a concave polygon at more than two points as shown in the
+It is rather easy to know whether a given polygon is concave or convex. Convex
+polygons have all their diagonals contained inside them, which is not true for
+concave polygons, i.e. you can find two vertices where the segment
+connecting them is outside the polygon. Another test is to find a straight
+line that crosses a concave polygon at more than two points as shown in the
 figure above with the red lines.
 
 

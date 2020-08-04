@@ -153,7 +153,7 @@ the graphic pipeline as it has been introduced in the `Modern OpenGL`_ section,
 you can see that the rasterisation requires for OpenGL to generate fragments
 inside the triangle but also to interpolate values (colors in the figure). One
 of the legitimate questions to be solved is then: if I have a triangle
-(V₁,V₂,V₃), each summit vertex having (for example) a different color, what is
+(V₁,V₂,V₃), each vertex having (for example) a different color, what is
 the color of a fragment `p` inside the triangle? The answer is `barycentric
 interpolation <https://en.wikibooks.org/wiki/GLSL_Programming/Rasterization>`_
 as illustrated in the figure on the right.
